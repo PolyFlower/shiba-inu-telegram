@@ -1,0 +1,3 @@
+interface ITelegramBoxEx {}
+
+export { ITelegramBoxEx };

@@ -1,0 +1,20 @@
+{
+  // Editor settings
+  "editor.mouseWheelZoom": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "files.exclude": {
+    "node_modules": true,
+    "**/.git": true
+  },
+  "explorer.compactFolders": true,
+
+  // Extension settings
+  "extensions.ignoreRecommendations": false,
+  "thunder-client.saveToWorkspace": true
+}

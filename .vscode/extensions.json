@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "christian-kohler.path-intellisense", // Path Intellisense
+    "EditorConfig.EditorConfig", // EditorConfig
+    "esbenp.prettier-vscode", // Prettier
+    "mikerhyssmith.ts-barrelr", // Ts Barrel
+    "rangav.vscode-thunder-client" // Alternative to native Postman; OPTIONAL
+  ]
+}
