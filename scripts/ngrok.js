@@ -21,7 +21,7 @@ ngrok
     console.log('ngrok tunnel opened at: '.concat(url));
     console.log('Dashboard quick open: http://localhost:4040/');
     nodemon({
-      exec: `cross-env VERCEL_URL=${url} ts-node -r tsconfig-paths/register src/index.ts`,
+      exec: `cross-env PUBLIC_URL=${url} ts-node -r tsconfig-paths/register src/index.ts`,
       ext: 'ts',
       ignore: ['.git', 'node_modules/**/*'],
       watch: ['src'],
