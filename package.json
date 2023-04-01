@@ -3,13 +3,9 @@
   "version": "1.0.0",
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "tsc && tsc-alias",
-    "build:pipe": "npm run build:api && npm run build:src",
-    "build:src": "tsc -p tsconfig.json && tsc-alias -p tsconfig.json",
-    "build:api": "tsc -p src/api/tsconfig.json && tsc-alias -p src/api/tsconfig.json",
+    "build": "tsc",
     "start": "node index.js",
-    "start:local": "node ./scripts/ngrok.js",
-    "vercel:clear": "vercel remove shiba-inu --safe --yes"
+    "start:local": "node ./scripts/ngrok.js"
   },
   "dependencies": {
     "discord.js": "^14.8.0",
@@ -23,17 +19,15 @@
     "@types/morgan": "^1.9.4",
     "@types/node-telegram-bot-api": "^0.61.5",
     "@types/nodemon": "^1.19.2",
-    "@vercel/node": "^2.10.2",
     "cross-env": "^7.0.3",
     "dotenv": "^16.0.3",
     "ngrok": "^4.3.3",
     "nodemon": "^2.0.22",
-    "reflect-metadata": "^0.1.13",
-    "rimraf": "^4.4.1",
     "ts-node": "^10.9.1",
-    "tsc-alias": "^1.8.4",
-    "tsconfig-paths": "^4.1.2",
+    "typescript": "^5.0.3",
     "typedi": "^0.10.0",
-    "typescript": "^5.0.3"
+    "tsc-alias": "^1.8.4",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^4.4.1"
   }
 }
